@@ -235,14 +235,14 @@ const Crud = () => {
         );
     };
 
-    const ratingBodyTemplate = (rowData) => {
-        return (
-            <>
-                <span className="p-column-title">Reviews</span>
-                <Rating value={rowData.rating} readOnly cancel={false} />
-            </>
-        );
-    };
+    // const ratingBodyTemplate = (rowData) => {
+    //     return (
+    //         <>
+    //             <span className="p-column-title">Reviews</span>
+    //             <Rating value={rowData.rating} readOnly cancel={false} />
+    //         </>
+    //     );
+    // };
 
     const statusBodyTemplate = (rowData) => {
         return (
@@ -395,4 +395,4 @@ const Crud = () => {
     );
 };
 
-export default Crud;
+export default Producto;

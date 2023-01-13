@@ -126,6 +126,7 @@ const Layout = (props) => {
                     <AppSidebar />
                 </div>
                 <div className="layout-main-container">
+                
                     <div className="layout-main">{props.children}</div>
                     <AppFooter />
                 </div>
